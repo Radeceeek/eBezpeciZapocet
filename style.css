@@ -1,0 +1,154 @@
+body{
+    background-color:rgb(47, 58, 74);
+    margin: 0;
+    padding: 0;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Poppins', sans-serif; ;
+}
+.logo2{
+   margin-left: 50px;
+}
+.obalka{
+   background-color: white;
+   width: 1200px;
+   margin:0 auto;
+   padding-top: 50px;
+   border-radius: 50px 50px 50px 50px;
+}
+h2,h1{
+    color: black;
+    font-size: 25px;
+}
+p{
+    color: black
+}
+nav{
+    text-align: center;   
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center; /* Zarovná odkazy na střed */
+    padding: 0;
+    width: 800px; /* Stejná šířka jako sekce */
+    margin: 0 auto; /* Vycentrování */
+}
+nav ul li{
+    display: inline;
+    margin-right: 10px;
+    position: relative;
+    top:-55px;
+    flex: 1; /* Každý odkaz zabere stejné místo */
+    text-align: center;
+}
+nav ul li a{
+    color: black;
+    display: inline-block;
+    font-size: 25px;
+    text-decoration: none;
+    width: 130px;
+    text-align: center;
+}
+nav ul li a:hover{
+    color: rgb(250, 177, 43);
+}
+.svet{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+section{
+    text-align: center;
+    width: 800px;
+    margin-left: 225px;
+    justify-content: space-between;
+    box-shadow: 0px 0px 20px 10px gray;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 15px;
+}
+.obr{
+    padding-top: 10px;
+    width: 400px;
+}
+.foto{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    grid-template-rows: repeat(4,50vh);
+   
+    margin-left: 200px;
+    padding-top: 20px;
+}
+.foto img{
+    box-sizing: border-box;
+}
+.foto p{
+    padding-right: 20px;
+    margin-right: 50px;
+}
+.svet{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-left: 200px;
+    padding-top: 20px;
+}
+.petrklic{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 50px;
+}
+.bebe{
+    padding-top: 40px;
+    padding-right: 50px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(4,20vh);
+    grid-gap: 40px;
+}
+.obrazky{
+    width: 300px;
+}
+footer{
+    padding-bottom: 20px;
+    text-align: center;
+    clear: both;
+}
+.logo-container {
+    text-align: center;
+    margin-bottom: 50px; /* Větší mezera pod logem */
+}
+
+.logo {
+    max-width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    gap: 70px; /* Mezera mezi odkazy */
+    list-style-type: none;
+    padding: 0;
+    margin-top: 25px; /* Posune odkazy dolů */
+    flex-wrap: nowrap; /* Zabrání zalamování na nový řádek */
+    white-space: nowrap; /* Zabrání dělení textu na více řádků */
+}
+
+
+.nav-links li {
+    display: inline-block;
+}
+
+.nav-links a {
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: rgb(250, 177, 43);
+}
+
+
